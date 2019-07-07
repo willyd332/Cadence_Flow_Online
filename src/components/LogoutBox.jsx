@@ -26,7 +26,7 @@ export default class SearchBar extends Component {
       <div>
         <img
           className="homeLogo"
-          src={"public/images/wideVersion2.png"}></img>
+          src={"../../public/images/wideVersion2.png"}></img>
         <div
           onClick={this.logout}
           className="LogoutBox"
