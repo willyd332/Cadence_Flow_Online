@@ -97,7 +97,7 @@ class AuthView extends React.Component{
               <div>
                 <img
                   className="loginLogo"
-                  src={"/images/wideVersion2.png"}></img>
+                  src={"public/images/wideVersion2.png"}></img>
               </div>
               <Container className="loginBox">
 
@@ -169,7 +169,7 @@ class AuthView extends React.Component{
               <div>
                 <img
                   className="loginLogo"
-                  src={"/images/wideVersion2.png"}></img>
+                  src={"public/images/wideVersion2.png"}></img>
               </div>
               <Container className="loginBox">
                 <Row className="loginRow">
