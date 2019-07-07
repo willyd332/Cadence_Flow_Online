@@ -1,0 +1,181 @@
+.homeContainer {
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  box-shadow: 20px 5px 60px 0px grey;
+}
+.searchBarRow {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  position: block;
+  text-align: center;
+}
+.searchBarInput {
+  width: 95%;
+  margin-left: 5%;
+  border: none;
+  background: #CED0CE;
+  padding: 5px;
+  border-radius: 5px;
+}
+.searchBarInput:focus {
+    outline-width: 0;
+}
+.searchBarInputBox{
+  width: 100%;
+  overflow: hidden;
+}
+.createConnectionRow {
+  margin: 20px;
+  position: block;
+  text-align: center;
+}
+.createConnectionButton {
+    background-color: skyblue;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.createConnectionButton:focus {
+    outline-width: 0;
+}
+.createConnectionButton:hover {
+    box-shadow: 2px 2px 10px skyblue;
+}
+.connectionRow {
+  text-align: center;
+  box-shadow: 5px 5px 10px #33628C;
+  margin: 15px;
+  background: white;
+  width: 95%;
+  margin-left: 5%;
+  border-radius: 4px;
+}
+.connectionRow:hover {
+  width: 100%;
+  margin-left: 0%;
+}
+.connectionItemInfo {
+  display: inline-block;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%
+}
+.connectionItemInfoUrge {
+  position: relative;
+  top: -17px;
+}
+
+.connectionItemInfoButtonBox {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.listActionButton {
+  z-index: 2;
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 7px;
+  font-size: 13px;
+  box-shadow: 2px 2px 2px #CDCDCD;
+}
+.listActionButton:focus {
+    outline-width: 0;
+}
+.listActionButton:hover{
+    width: 85px;
+    height: 32px
+}
+.DelBut {
+  background: red;
+}
+.ConBut {
+  background: blue;
+}
+
+.mainListContainer {
+  height: 450px;
+  background: #ecf0f1;
+  width: 100%;
+  border-radius: 4px;
+  overflow: scroll;
+}
+
+.connectionItemNameBox {
+  margin: 0px;
+  width: 25%;
+  text-align: left;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+.connectionItemName {
+  font-weight: bold;
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.connectionItemCompany {
+  font-style: italic;
+  color: grey;
+  margin: 0;
+  width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.urgencyIndicatorBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.urgencyIndicator {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin: 10px;
+}
+
+.LogoutBox {
+  margin-top: 5pxpx;
+  position: absolute;
+  margin-left: 85vw;
+  color: black;
+  background: #CDCDCD;
+  display: block;
+  width: 70px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 3px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.homeLogo {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  margin-left: -50vw;
+  top: 50%;
+  margin-top: -23vw;
+}
+
+@media only screen and (max-width: 940px) {
+  .homeLogo {
+    display: none;
+  }
+}
