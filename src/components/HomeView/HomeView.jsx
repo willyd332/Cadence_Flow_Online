@@ -40,13 +40,13 @@ class HomeView extends React.Component{
         if (deletedItemJSON.data) {
           this.editConnections(deletedItemJSON.data, false, true)
         } else {
-          console.error("failed to delete -- status:" + deletedItemJSON.status);
+          console.log("failed to delete -- status:" + deletedItemJSON.status);
         }
       } else {
-        console.error("failed to delete");
+        console.log("failed to delete");
       }
     } catch (err) {
-      console.error("failed to delete " + err);
+      console.log("failed to delete " + err);
     }
   }
 
@@ -69,13 +69,13 @@ class HomeView extends React.Component{
         if (updatedItemJSON.data) {
           this.editConnections(updatedItemJSON.data);
         } else {
-          console.error("failed to update -- status:" + updatedItemJSON.status);
+          console.log("failed to update -- status:" + updatedItemJSON.status);
         }
       } else {
-        console.error("failed to update");
+        console.log("failed to update");
       }
     } catch (err) {
-      console.error("failed to update " + err);
+      console.log("failed to update " + err);
     }
 
   }
@@ -126,13 +126,13 @@ class HomeView extends React.Component{
             connections: sortedConnections
           });
         } else {
-          console.error("couldnt find em! " + allConnectionsJSON.status);
+          console.log("couldnt find em! " + allConnectionsJSON.status);
         }
       } else {
-        console.error("couldnt find em! --- !allConnections");
+        console.log("couldnt find em! --- !allConnections");
       }
     } catch (err) {
-      console.error("couldnt find em! " + err);
+      console.log("couldnt find em! " + err);
     }
   }
 
@@ -278,13 +278,13 @@ class HomeView extends React.Component{
     //   });
 
     } else {
-      console.error("failed to create " + newConnectionJSON.status)
+      console.log("failed to create " + newConnectionJSON.status)
     }
     } else {
-      console.error("failed to create ---- !newConnection")
+      console.log("failed to create ---- !newConnection")
     }
     }catch(err){
-      console.error("Creation of entry failed " + err);
+      console.log("Creation of entry failed " + err);
     }
   }
 

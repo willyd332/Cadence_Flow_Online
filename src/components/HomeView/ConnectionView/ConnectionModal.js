@@ -50,10 +50,10 @@ class ConnectionModal extends React.Component {
           console.warn("server failed to send data " + updatedEntryJSON.status + " If you just deleted a connection then this is expected and will be fixed");
         }
       } else {
-        console.error("Failed to recieve response");
+        console.log("Failed to recieve response");
       }
     }catch(err){
-      console.error("failed to update entry " + err);
+      console.log("failed to update entry " + err);
     }
   }
 

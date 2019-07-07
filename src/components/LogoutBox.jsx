@@ -17,7 +17,7 @@ export default class SearchBar extends Component {
         this.props.destroySession();
       // }
     }catch(err){
-      console.error(err)
+      console.log(err)
     }
   }
 

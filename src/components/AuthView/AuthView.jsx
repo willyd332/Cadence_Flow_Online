@@ -43,7 +43,7 @@ class AuthView extends React.Component{
         this.setState({logError: "User Not Found"});
       }
     }catch(err){
-      console.error("Login Failed!!! " + err);
+      console.log("Login Failed!!! " + err);
       throw err;
     }
   }
@@ -75,7 +75,7 @@ class AuthView extends React.Component{
           this.setState({logError: "User Already Exists"});
         }
     }catch(err){
-      console.warning("Register Failed!!! " + err);
+      console.log("Register Failed!!! " + err);
     }
 
   }
