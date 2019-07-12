@@ -26,7 +26,7 @@ export default class SearchBar extends Component {
       <div>
         <img
           className="homeLogo"
-          src={"./wideVersion2.png"}
+          src={"src/components/wideVersion2.png"}
           alt="Flow Connect Online"
         ></img>
         <div

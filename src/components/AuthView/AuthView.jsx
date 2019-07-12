@@ -97,7 +97,7 @@ class AuthView extends React.Component{
               <div>
                 <img
                   className="loginLogo"
-                  src={"./wideVersion2.png"}
+                  src={"src/components/AuthView/wideVersion2.png"}
                   alt="Flow Connect Online"
                 ></img>
               </div>
@@ -171,7 +171,7 @@ class AuthView extends React.Component{
               <div>
                 <img
                   className="loginLogo"
-                  src={"./wideVersion2.png"}
+                  src={"src/components/AuthView/wideVersion2.png"}
                   alt="Flow Connect Online"
                 ></img>
               </div>
