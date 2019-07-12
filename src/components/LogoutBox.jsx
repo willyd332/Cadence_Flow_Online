@@ -26,7 +26,9 @@ export default class SearchBar extends Component {
       <div>
         <img
           className="homeLogo"
-          src={"./wideVersion2.png"}></img>
+          src={"./wideVersion2.png"}
+          alt="Flow Connect Online"
+        ></img>
         <div
           onClick={this.logout}
           className="LogoutBox"
